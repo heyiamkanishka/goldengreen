@@ -19,6 +19,8 @@ export function App() {
     }
   };
 
+  // just adding this useless comment to check if jenkins would work
+
   const handleSelectProductForOrder = (product: Product) => {
     setSelectedProduct(product);
     setCartCount((prev) => prev + 1);
